@@ -35,7 +35,7 @@
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    moz-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -111,7 +111,7 @@
         max-width: 1300px;
         padding: 0%;
     }
-    .navbar___menu {
+    .navbar__menu {
         display: grid;
         grid-template-columns: auto;
         margin: 0%;
@@ -139,7 +139,7 @@
     padding-left: 25px;
 }
 
-.navbar__togle.bar {
+.navbar__toggle.bar {
     width: 25px;
     height: 3px;
     margin: 5px auto;
@@ -147,7 +147,7 @@
     background: #fff;
 }
 
-navbar__item {
+.navbar__item {
     width: 100%;
 }
 
@@ -178,7 +178,7 @@ navbar__item {
     margin: 0;
 }
 
-.navbar__togle.bar {
+.navbar__toggle.bar {
     display: block;
     cursor: pointer;
 }
