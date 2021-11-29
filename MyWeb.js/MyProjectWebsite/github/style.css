@@ -1,4 +1,4 @@
-{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background: black;
+    background: #131313;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -25,22 +25,26 @@
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 50 px;
 }
 
 #navbar___logo {
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, ffb1423453 100%);
+    background-image: linear-gradient(to top, #ff0844) 0%, ffb1423453 100%;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    moz-text-fill-color: transparent;
     display: flex;
     align-items: center;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+}
+
+.fa-gem {
+    margin-right: 0.5rem;
 }
 
 .navbar__menu {
@@ -58,11 +62,10 @@
     color: #fff;
     display: flex;
     align-items: center;
-    width: 125px;
     justify-content: center;
     text-decoration: none;
+    padding: 0 1rem;
     width: 100%;
-    transition: all 0.3s ease;
 }
 
 .navbar___btn {
@@ -84,8 +87,8 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: #f77062;
+    color: #fff;
 }
 
 .button:hover {
@@ -94,7 +97,7 @@
 }
 
 .navbar__links:hover {
-    color: #9518fc;
+    color: #f77062;
     transition: all 0.3s ease;
 }
 
@@ -108,7 +111,7 @@
         max-width: 1300px;
         padding: 0%;
     }
-    .navbar__menu {
+    .navbar___menu {
         display: grid;
         grid-template-columns: auto;
         margin: 0%;
@@ -123,12 +126,12 @@
 }
 
 .navbar__menu.active {
-    background: #131313;
+    background: black;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 99;
-    height: 60vh;
+    height: 50vh;
     font-size: 1.6rem;
 }
 
@@ -136,7 +139,7 @@
     padding-left: 25px;
 }
 
-.navbar__toggle.bar {
+.navbar__togle.bar {
     width: 25px;
     height: 3px;
     margin: 5px auto;
@@ -144,7 +147,7 @@
     background: #fff;
 }
 
-.navbar__item {
+navbar__item {
     width: 100%;
 }
 
@@ -175,17 +178,9 @@
     margin: 0;
 }
 
-.navbar__toggle.bar {
+.navbar__togle.bar {
     display: block;
     cursor: pointer;
-}
-
-.navbar__links {
-    text-align: center;
-    padding: absolute;
-    top: 20%;
-    right: 5%;
-    transform: translate(5%, 20%);
 }
 
 #mobile-menu.is-active .bar:nth-child(2) {
@@ -200,4 +195,7 @@
 #mobile-menu.is-active .bar:nth-child(3) {
     opacity: 100%;
     transform: translateY(-8px) rotate(-45deg);
+}
+
+
 }
