@@ -17,7 +17,7 @@
     z-index: 999;
 }
 
-.navbar___container {
+.navbar__container {
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -25,12 +25,12 @@
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
-    padding: 0 50 px;
+    padding: 0 50px;
 }
 
 #navbar__logo {
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 10 0%, #ffb1ff 100%);
+    background-image: linear-gradient(to top, #ff0844 100%, #ffb1ff 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -59,7 +59,7 @@
 }
 
 .navbar__links {
-    color: #fff;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;

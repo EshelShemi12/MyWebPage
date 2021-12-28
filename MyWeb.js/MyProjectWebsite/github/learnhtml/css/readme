@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="en"> // = the language of the code // = this command is mean that you write in HTML language
+
+<head> // = the place where you can write the tech of the code ( title of website , To which folder to link the code you wrote down)
+    <meta charset="UTF-8"> // = The charset attribute specifies the character encoding for the HTML document.
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> // = the viewport of the website user
+    <title> Frontend Course</title> // = the title of the whole website
+    <link rel="stylesheet" href=""> </head> // = this command tie the code to other code file (can be css , workframe code)
+</head>
+
+<body> // = the place you can write the text of the website
+
+    <a href="  What ever website you want to       "> <a> //= link to other web page or even other page of your HTML code
+        <div class="any class you want to call " ></div> // = this command make a class of variables you can remind in your CSS file.
+        
+        /body>
+
+</html> // = the end of the code
