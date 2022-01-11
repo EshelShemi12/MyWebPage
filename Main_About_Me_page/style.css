@@ -210,3 +210,27 @@ body {
 }
 
 .class-sus {}
+
+.about-right-1 {
+    background: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5rem;
+    text-align: center;
+}
+
+.about-right-1 h1 {
+    font-size: 7rem;
+    text-transform: uppercase;
+}
+
+.about-right-1 h1 span {
+    color: black;
+}
+
+.about-right-1 h2 {
+    font-weight: 600;
+}
