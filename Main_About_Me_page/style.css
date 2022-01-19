@@ -9,6 +9,18 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
 .about-wrapper {
     height: 100vh;
 }
@@ -40,8 +52,8 @@ body {
 }
 
 .about-img {
-    width: 200px;
-    height: 200px;
+    width: 220 px;
+    height: 220px;
     overflow: hidden;
     border-radius: 50%;
     transition: all 0.5s ease-in-out;
@@ -81,18 +93,18 @@ body {
 }
 
 .about-left-content h2 {
-    font-size: 2rem;
-    margin: 2.2rem 0 0.6rem 0;
+    font-size: 5rem;
+    margin: 8rem 0 5rem 0;
     line-height: 1.2;
-    padding-bottom: 1rem;
-    border-bottom: 2px solid white;
+    padding-bottom: 3rem;
+    border-bottom: 8px solid white;
 }
 
 .about-left-content h3 {
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 1100;
     letter-spacing: 5px;
-    margin-top: 1.2rem;
+    margin-top: 4rem;
 }
 
 .icons {
@@ -125,7 +137,7 @@ body {
 
 .about-right {
     background: white;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,7 +147,7 @@ body {
 }
 
 .about-right h1 {
-    font-size: 7rem;
+    font-size: 20rem;
     text-transform: uppercase;
 }
 
@@ -144,7 +156,7 @@ body {
 }
 
 .about-right h2 {
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .about-btns {
@@ -154,39 +166,39 @@ body {
 
 .btn {
     border: none;
-    font-size: 0.9rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
-    border: 2px solid #000;
-    border-radius: 20px;
-    padding: 0.55rem 0;
-    width: 130px;
+    border: 7px solid yellow;
+    border-radius: 15px;
+    padding: 3rem 0;
+    width: 230px;
     font-weight: 600;
     background: transparent;
     margin: 0 0.5rem;
     cursor: pointer;
 }
 
-.btn.btn-red {
+.btn.btn-blue {
     background: red;
-    color: #fff;
+    color: white;
     border-color: white;
     transition: all 0.5s ease-in-out;
 }
 
-.btn.btn-black:hover {
-    background: yellow;
+.btn.btn-red:hover {
+    background: transparent;
     border-color: black;
-    color: black;
+    color: blue;
 }
 
-.btn.btn-white {
+.btn.btn-red {
     transition: all 0.5s ease-in-out;
 }
 
 .btn.btn-blue:hover {
-    background: white;
-    border-color: black;
-    color: blue;
+    background: #dd2d4a;
+    border-color: #dd2d4a;
+    color: #fff;
 }
 
 .about-para p {
@@ -205,7 +217,7 @@ body {
     }
     .about-left-content {
         position: absolute;
-        right: -50px;
+        right: 0px;
     }
 }
 
@@ -218,12 +230,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 5rem;
+    padding: 0 10rem;
     text-align: center;
 }
 
 .about-right-1 h1 {
-    font-size: 7rem;
+    font-size: 10rem;
     text-transform: uppercase;
 }
 
@@ -232,5 +244,5 @@ body {
 }
 
 .about-right-1 h2 {
-    font-weight: 600;
+    font-weight: 1200;
 }
