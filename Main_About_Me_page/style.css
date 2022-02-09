@@ -221,47 +221,5 @@ body {
     }
 }
 
-.class-sus {}
-
-.about-right-1 {
-    background: white;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 10rem;
-    text-align: center;
-}
-
-.about-right-1 h1 {
-    font-size: 10rem;
-    text-transform: uppercase;
-}
-
-.about-right-1 h1 span {
-    color: black;
-}
-
-.about-right-1 h2 {
-    font-weight: 1200;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Helvetica Neue', sans-serif;
-}
-
 
 /* profile image section */
-
-.about_me.html {
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-}
